@@ -136,7 +136,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
-                    String id=editID.getEditText().getText().toString().trim()+"@iiitnr.edu.in";
+                    String id=editID.getEditText().getText().toString().trim()+"@jnvu.edu.in";
                     db.collection("User").whereEqualTo("email",id).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                         @Override
                         public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
