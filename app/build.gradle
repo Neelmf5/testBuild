@@ -3,12 +3,12 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     namespace = "com.iiitnr.libraryapp"
-    compileSdkVersion 34
+    compileSdkVersion 28
     defaultConfig {
         multiDexEnabled true
         applicationId "com.iiitnr.libraryapp"
         minSdkVersion 20
-        targetSdkVersion 34
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
